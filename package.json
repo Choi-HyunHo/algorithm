@@ -1,9 +1,10 @@
 {
   "name": "nodejs",
   "version": "1.0.0",
-  "description": "",
+  "description": "알고리즘 공부 및 정리",
   "main": "index.js",
   "scripts": {
+    "start" : "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,5 +13,14 @@
   "dependencies": {
     "@types/node": "^18.0.6",
     "node-fetch": "^3.2.6"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Choi-HyunHo/algorithm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Choi-HyunHo/algorithm/issues"
+  },
+  "homepage": "https://github.com/Choi-HyunHo/algorithm#readme"
 }
